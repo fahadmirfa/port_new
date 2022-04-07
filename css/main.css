@@ -291,7 +291,10 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .boxes div{
+    font-size: 1rem;
+  }}
 
 @media screen and (max-width: 500px) {
   h1.lg-heading{
@@ -323,5 +326,8 @@ main {
       top: 9px;
     }
   h2{
+    font-size: 1rem;
+  }
+  .boxes div{
     font-size: 1rem;
   }}
