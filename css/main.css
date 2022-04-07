@@ -301,7 +301,7 @@ main {
     font-size: 4rem;
   }
   .btn-cv{
-    margin-left:3rem ;
+    margin-left:4rem ;
   }
   main {
     padding: 2rem; }
@@ -326,13 +326,15 @@ main {
       top: 9px;
     }
   h2{
-    font-size: 1rem;
+    font-size: 13px;
   }
   .boxes div{
     font-size: 1rem;
   }}
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 325px){
     .boxes div{
       font-size: 12px;
     }
+    .menu .nav-link {
+          font-size: 28px;
   }
